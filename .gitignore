@@ -35,7 +35,11 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
-
+# //---------------------------------------
+#  THIS ADDITIONAL CODE: prevents secret code from being included when we check our code in
+# Configuration/secrets
+# config
+#//----------------------------------------
 # TypeScript v1 declaration files
 typings/
 
