@@ -32,12 +32,13 @@ server.get('/token',(req,res) => {
   };
 
   const secret = 'iamwhatiam';
+  
   const options = {
     expiresIn: '1h'
   };
 
   const token = jwt.sign(payload, secret, options);
-  res.json(token);
+  res.json({'token:':token});
 })
 
 module.exports = server;
