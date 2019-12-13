@@ -26,9 +26,9 @@ server.get('/', (req, res) => {
 server.get('/token',(req,res) => {
  
   const payload = {
-    subject: 'thisuser',
-    userid: 'kyearwood',
-    favoriteColor: 'red'
+    subject: 'thewizardofoz',
+    userid: 'kly',
+    favoriteFood: 'chocolate'
   };
 
   const secret = 'iamwhatiam';
